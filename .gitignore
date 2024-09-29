@@ -35,4 +35,4 @@ replay_pid*
 /dataSources.local.xml
 
 #Editor
-.idea
+.idea/
