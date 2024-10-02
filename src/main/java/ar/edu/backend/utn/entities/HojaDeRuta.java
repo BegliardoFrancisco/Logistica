@@ -7,6 +7,9 @@ public class HojaDeRuta {
     private String nombreCliente;
     private Transporte transporte;
 
+    public HojaDeRuta() {
+    }
+
     public HojaDeRuta(String codigo, String origen, String nombreCliente, String destino, Transporte transporte) {
         this.codigo = codigo;
         this.origen = origen;
@@ -62,7 +65,7 @@ public class HojaDeRuta {
                 ", origen='" + origen + '\'' +
                 ", destino='" + destino + '\'' +
                 ", nombreCliente='" + nombreCliente + '\'' +
-                ", transporte=" + transporte +
+                ", transporte=" + transporte.toString() +
                 '}';
     }
 
